@@ -8,7 +8,7 @@ echo "====CUSTOM CHANGE===="
 
 cp -Rf /tmp/src/*.html ./
 
-DATEVAR='date "+%Y-%m-%d"'
+DATE='date "+%Y-%m-%d"'
 
-echo "Page built on $DATEVAR" >> ./info.html
+echo "Page built on $DATE" >> ./info.html
 
