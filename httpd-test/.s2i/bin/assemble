@@ -1,6 +1,8 @@
-#!/bin/bash -e
+#!/bin/bash 
 
-config_s2i
+set -e
+
+/usr/libexec/s2i/assemble
 
 echo "====CUSTOM CHANGE===="
 
