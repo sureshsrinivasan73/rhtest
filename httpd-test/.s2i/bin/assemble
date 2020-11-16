@@ -10,5 +10,5 @@ cp -Rf /tmp/src/*.html ./
 
 DATEVAR=$(date "+%Y-%m-%d")
 
-echo "Page built on $DATE" >> ./info.html
+echo "Page built on $DATEVAR" >> ./info.html
 
