@@ -1,0 +1,12 @@
+#!/bin/bash -e
+
+echo "====CUSTOM CHANGE===="
+
+/usr/libexec/s2i/assemble
+
+cp -Rf /tmp/src/. ./
+
+DATEVAR='date "+%Y-%m-%d"'
+
+echo "Page built on $DATEVAR" >> ./info.html
+
