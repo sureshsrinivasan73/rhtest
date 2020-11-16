@@ -1,10 +1,10 @@
 #!/bin/bash -e
 
+config_s2i
+
 echo "====CUSTOM CHANGE===="
 
-/usr/libexec/s2i/assemble
-
-cp -Rf /tmp/src/. ./
+cp -Rf /tmp/src/*.html ./
 
 DATEVAR='date "+%Y-%m-%d"'
 
